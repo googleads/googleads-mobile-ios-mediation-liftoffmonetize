@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
 
 // Copyright 2025 Google LLC.
 //
@@ -27,7 +27,6 @@ let package = Package(
   ],
   dependencies: [
     .package(
-      name: "VungleAdsSDK",
       url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git",
       exact: "7.6.0"
     )
@@ -37,7 +36,7 @@ let package = Package(
       name: "LiftoffMonetizeAdapterTarget",
       dependencies: [
         .target(name: "LiftoffMonetizeAdapter"),
-        .product(name: "VungleAdsSDK", package: "VungleAdsSDK"),
+        .product(name: "VungleAdsSDK", package: "VungleAdsSDK-SwiftPackageManager"),
       ],
       path: "LiftoffMonetizeAdapterTarget"
     ),
