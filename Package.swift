@@ -29,7 +29,11 @@ let package = Package(
     .package(
       url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git",
       exact: "7.6.0"
-    )
+    ),
+    .package(
+      url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
+      from: "12.0.0"
+    ),
   ],
   targets: [
     .target(
@@ -37,6 +41,7 @@ let package = Package(
       dependencies: [
         .target(name: "LiftoffMonetizeAdapter"),
         .product(name: "VungleAdsSDK", package: "VungleAdsSDK-SwiftPackageManager"),
+        .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
       ],
       path: "LiftoffMonetizeAdapterTarget"
     ),
