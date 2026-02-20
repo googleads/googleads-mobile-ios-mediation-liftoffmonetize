@@ -18,7 +18,7 @@ import PackageDescription
 
 let package = Package(
   name: "LiftoffMonetizeAdapter",
-  platforms: [.iOS(.v12)],
+  platforms: [.iOS(.v13)],
   products: [
     .library(
       name: "LiftoffMonetizeAdapterTarget",
@@ -28,11 +28,11 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git",
-      exact: "7.6.0"
+      exact: "7.7.0"
     ),
     .package(
       url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-      from: "12.0.0"
+      from: "13.0.0"
     ),
   ],
   targets: [
@@ -48,8 +48,8 @@ let package = Package(
     .binaryTarget(
       name: "LiftoffMonetizeAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/liftoffmonetize/LiftoffMonetizeAdapter-7.6.0.0.zip",
-      checksum: "61413e19b672b38e508e332380fd5d5ff152b77c552ef5a4ca088f8e4a0cb63c"
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/liftoffmonetize/LiftoffMonetizeAdapter-7.7.0.0.zip",
+      checksum: "40608d891d891ad285efcc5e8f88f6f6cf92fa045533d950e719c5813fe76491"
     ),
   ]
 )
