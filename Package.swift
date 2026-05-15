@@ -49,7 +49,7 @@ let package = Package(
       name: "LiftoffMonetizeAdapter",
       url:
         "https://dl.google.com/googleadmobadssdk/mediation/ios/liftoffmonetize/LiftoffMonetizeAdapter-7.7.2.1.zip",
-      checksum: "76012d97c92a27c732826f2ee30c9821a37b85ed08775827f2d0e9d8b4979bfb"
+      checksum: "5b50d47d2e103bb6ee670729afd6acf4ec6aa27961712d2c5a22604b1772fc53"
     ),
   ]
 )
