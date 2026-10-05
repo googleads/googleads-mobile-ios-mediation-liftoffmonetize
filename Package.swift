@@ -28,7 +28,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git",
-      exact: "7.7.7"
+      exact: "7.7.8"
     ),
     .package(
       url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
@@ -48,7 +48,7 @@ let package = Package(
     .binaryTarget(
       name: "LiftoffMonetizeAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/liftoffmonetize/LiftoffMonetizeAdapter-7.7.7.0.zip",
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/liftoffmonetize/LiftoffMonetizeAdapter-7.7.8.0.zip",
       checksum: "952502ee52fe427ff785eec51c22586859931ca3ce7e7965a6c0cbc93ae87294"
     ),
   ]
